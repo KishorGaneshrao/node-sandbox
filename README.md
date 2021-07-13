@@ -1,10 +1,10 @@
 # node-sandbox
 sandbox repo to explore different features of:
- - [node.js] (https://nodejs.org/en/about/)
- - [mocha] (https://mochajs.org/)
- - [chai] (https://www.chaijs.com/)
- - [webdriver.io] (https://webdriver.io/)
- - [allure-reports] (https://docs.qameta.io/allure/)
+ - [node.js](https://nodejs.org/en/about/)
+ - [mocha](https://mochajs.org/)
+ - [chai](https://www.chaijs.com/)
+ - [webdriver.io](https://webdriver.io/)
+ - [allure-reports](https://docs.qameta.io/allure/)
 
 ## services:
 - How to start service  -  `npm start` starts up service @ `http://localhost:3000`
