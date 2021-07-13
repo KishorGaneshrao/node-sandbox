@@ -1,7 +1,12 @@
 # node-sandbox
-sandbox repo to try different features of `node.js / mocha / chai & webdriver.io with allure reports`
+sandbox repo to explore different features of:
+ - [node.js] (https://nodejs.org/en/about/)
+ - [mocha] (https://mochajs.org/)
+ - [chai] (https://www.chaijs.com/)
+ - [webdriver.io] (https://webdriver.io/)
+ - [allure-reports] (https://docs.qameta.io/allure/)
 
-## Services:
+## services:
 - How to start service  -  `npm start` starts up service @ `http://localhost:3000`
 - `GET` operations:
     - service path `/hello`    -   returns `Hello World!` text
@@ -11,10 +16,10 @@ sandbox repo to try different features of `node.js / mocha / chai & webdriver.io
 - `POST` operation:
     - service path `/people` with request body provides the ability to add more people to the existing list.
 
-## How to run tests:
+## tests:
 - unit tests          -   `npm run unitTest` runs a sample unit test i.e. `Array - indexOf()`
 - integration tests   -   `npm run integrationTest` runs a sample `successful login scenario` @ `https://the-internet.herokuapp.com/login`
 
-## Test Report:
+## test report:
 - test reports are available under `./allure-report`
 - run `allure open` on command line to bring up the integration test report available at `./allure-report/index.html`
